@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{6F11012F-6C4B-4549-A3AB-2D4F8E55D258}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TechHomework4_PetMedUI/MasterPage.Master">
+    <Files>
+      <File FileName="TechHomework4_PetMedUI/MasterPage.Master" Line="1" Column="1" />
+      <File FileName="TechHomework4_PetMedUI/Default.aspx" Line="1" Column="1" />
+      <File FileName="TechHomework4_PetMedUI/ContentPage2.aspx" Line="1" Column="1" />
+      <File FileName="TechHomework4_PetMedUI/ContentPage3.aspx" Line="1" Column="1" />
+      <File FileName="TechHomework4_PetMedUI/StyleSheet1.css" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TechHomework4_PetMedUI" expanded="True">
+            <Node name="TechHomework4_PetMedUI" expanded="True">
+              <Node name="MasterPage.Master" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TechHomework4__PetMedUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

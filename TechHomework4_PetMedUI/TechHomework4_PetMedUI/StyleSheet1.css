@@ -1,5 +1,4 @@
 ﻿body {
-    background-color: burlywood;
 }
 
 #title {
@@ -7,6 +6,15 @@
 }
 
 #mainContent {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#prescTicket {
+    padding: 2em;
+    background-color: lightgrey;
+}
+
+#customerInput {
+    width: 12em;
 }
