@@ -2,5 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h5> Vet Orders Page </h5>
+    <div id="mainContent">
+        <h5> Prescription Orders </h5>
+        <div class="input-group">
+            <div class="input-group-prepend">
+            <span class="input-group-text">With textarea</span>
+            </div>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+    </div>
 </asp:Content>
