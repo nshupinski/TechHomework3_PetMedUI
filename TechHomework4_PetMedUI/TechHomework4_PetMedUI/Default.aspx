@@ -55,8 +55,16 @@
                         <div class="input-group-prepend">
                         <span class="input-group-text">Notes</span>
                         </div>
-                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                        <textarea class="form-control" aria-label="With textarea"> - First time using Prozac</textarea>
                     </div>
+                    <br />
+                    <form>
+                      <div class="form-group">
+                        <label id="replacement" for="exampleInput">Replacement Prescription</label>
+                        <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Cymbalta">
+                      </div>
+                    </form>
+                    
                 </div> 
           </div>
         </div>

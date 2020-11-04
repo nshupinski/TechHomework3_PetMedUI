@@ -18,3 +18,7 @@
 #customerInput {
     width: 12em;
 }
+
+#replacement {
+    color: red;
+}
