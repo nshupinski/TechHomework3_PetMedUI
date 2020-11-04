@@ -70,6 +70,7 @@
     <Content Include="ContentPage2.aspx" />
     <Content Include="ContentPage3.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

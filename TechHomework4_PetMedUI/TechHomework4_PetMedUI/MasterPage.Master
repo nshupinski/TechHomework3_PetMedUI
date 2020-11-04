@@ -7,15 +7,36 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="Style Sheets/Stylesheet.css" />
+
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1 style="color: blue"> Master Page </h1>
-            <div style="display: flex; flex-direction: row; justify-content: space-around; width: 25%;">
-                <a href="Default.aspx">Default Page</a>
-                <a href="ContentPage2.aspx">Page Two</a>
+            <div class="jumbotron">
+              <h1 class="display-4">Pet Electronic Prescription System Overview</h1>
+                <div style="display: flex; flex-direction: row; justify-content: space-around; width: 25%;">
+                    <a href="Default.aspx">Vet Page</a>
+                    <a href="ContentPage2.aspx">Customer Service Representative Page</a>
+                    <a href="ContentPage3.aspx">Dispensary Page</a>
+                </div>
+
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="Default.aspx">Vet Page</a>
+                  </li>
+                  <li>
+                    <a href="ContentPage2.aspx">Customer Service Representative Page</a>
+                  </li>
+                    <li>
+                    <a href="ContentPage3.aspx">Dispensary Page</a>
+                  </li>
+                </ul>
+              <hr class="my-4">
             </div>
+
+                
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
