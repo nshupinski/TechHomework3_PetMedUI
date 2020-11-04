@@ -8,31 +8,34 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
-    <link rel="stylesheet" href="Style Sheets/Stylesheet.css" />
+    <link rel="stylesheet" href="Stylesheet1.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <div class="jumbotron">
-              <h1 class="display-4">Pet Electronic Prescription System Overview</h1>
-                <div style="display: flex; flex-direction: row; justify-content: space-around; width: 25%;">
-                    <a href="Default.aspx">Vet Page</a>
-                    <a href="ContentPage2.aspx">Customer Service Representative Page</a>
-                    <a href="ContentPage3.aspx">Dispensary Page</a>
-                </div>
+              <h1 id="title" class="display-4">Pet Electronic Prescription System Overview</h1>
 
-                <ul class="nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="Default.aspx">Vet Page</a>
-                  </li>
-                  <li>
-                    <a href="ContentPage2.aspx">Customer Service Representative Page</a>
-                  </li>
-                    <li>
-                    <a href="ContentPage3.aspx">Dispensary Page</a>
-                  </li>
-                </ul>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="Default.aspx">Vet Page <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ContentPage2.aspx">Customer Service Representative Page</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ContentPage3.aspx" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dispensary Page
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+
               <hr class="my-4">
             </div>
 
